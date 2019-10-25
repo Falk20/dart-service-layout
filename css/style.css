@@ -1,0 +1,658 @@
+body {
+    margin: 0 auto;
+
+    font-family: "Raleway-Regular";
+}
+
+button {
+    font-family: "Raleway-Bold";
+    outline: none;
+    cursor: pointer;
+}
+
+header {
+    background: url(../images/BG.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 50px;
+}
+
+.wrapper {
+    padding: 0px 75px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav ul {
+     display: flex;
+     flex-grow: 0.3;
+     justify-content: space-between;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.active {
+    color: #000;
+}
+
+header nav button {
+    border: solid 1px #fff;
+    border-radius: 3px;
+    outline: none;
+    font-size: 12px;
+    font-family: "Raleway-Regular";
+    color: rgb(255, 255, 255);
+    line-height: 2.083;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+header nav button:active {
+    border: solid 1px #fff;
+    border-radius: 3px;
+    background: aquamarine
+}
+
+.lead-banner {
+    padding: 100px 0; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.banner-text{
+    max-width: 575px;
+}
+
+.video {
+   max-width: 100%;
+}
+
+.lead-banner h1 {
+    font-size: 55px;
+    font-family: "Raleway-ExtraBold";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.182;
+    text-align: left;
+    
+}
+
+.lead-banner p {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.944;
+    text-align: left;
+}
+
+.lead-banner button {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 20px 40px;
+    margin: 30px 30px 30px 0;
+}
+.buy {
+    background-color: rgb(6, 30, 55);
+    color: #fff;
+}
+
+.try {
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 30, 55);
+}
+.easy-usefull{
+    padding-top: 60px;
+}
+.easy-usefull h2, .easy-usefull h3, .easy-usefull p{
+    text-align: center;
+    margin: 10px;
+}
+.easy-usefull > h2{
+    font-size: 45px;
+}
+
+.easy-usefull > h3{
+    font-size: 25px;
+    font-weight: 800;
+    color: #b0bec5;
+}
+
+.easy-usefull p{
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 25px;
+    color: #b0bec5;
+}
+
+.easy-usefull .title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.easy-usefull .title div {
+    max-width: 400px;
+}
+.easy-usefull .title img {
+    display: block;
+    margin: 15px auto 20px;
+    height: 70px;
+}
+
+.easy-usefull .title h3 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.easy-usefull a {
+    display: block;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(29, 233, 182);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px 0;
+    margin: 100px auto;
+    width: 150px;
+    cursor: pointer;
+}
+ul.numbers{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+ul.numbers li{
+    display: flex;
+    width: 25%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+ul.numbers li .img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+ul.numbers li p {
+    font-size: 20px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: left;    
+}
+
+ul.numbers > :nth-child(1){
+    background: #80d8ff;
+    
+}
+ul.numbers > :nth-child(2){
+    background: #82b1ff;
+}
+ul.numbers > :nth-child(3){
+    background: #b388ff;
+}
+ul.numbers > :nth-child(4){
+    background: #ea80fc;
+}
+
+.services h2{
+    font-size: 45px;
+    text-align: center;
+    margin: 30px 0 15px;
+}
+
+.services p{
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 25px;
+    color: #b0bec5;
+    text-align: center;
+}
+
+.services ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.services ul li {
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.13);
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.services ul li .icon {
+    display: block;
+    width: 100%;
+    margin-right: 5px;
+}
+.services ul li div {
+    display: inline-flex;
+}
+.services ul li h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.services ul li .drop-arrows {
+    display: block;
+    width: 10px;
+    height: 10px;
+}
+
+.second-banner {
+    background-image: url(../images/testimonials-background.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+.second-banner .wrapper{
+    display: flex;
+    justify-content: space-between;
+}  
+.second-banner .get-started {
+    color: white;
+    width: 40%;
+    padding-top: 20px;
+}
+.second-banner .get-started p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.4em;
+}
+
+.second-banner .get-started h2{
+    font-size: 35px;
+    font-family: "Raleway";
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+}
+
+.second-banner .get-started a {
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 20px 40px;
+    margin-top: 70px;
+    background-color: rgb(6, 30, 55);
+    text-align: center;
+}
+
+.second-banner .right-side {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.second-banner .right-side .arrows{
+    position: relative;
+    right: -30px; 
+}
+.second-banner .comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.second-banner .comments > :nth-child(1) {
+    margin-bottom: 5%;
+}
+
+.second-banner .comment {
+    display: flex;
+    align-items: center;
+}
+
+.second-banner .comments .comment .avatar{
+    width: 20%;
+    height: 20%;
+    margin-right: 5%;
+}
+
+.second-banner .comments .comment div{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+.second-banner .comments .comment h4{
+    font-weight: 900;
+    line-height: 2em;
+}
+
+.second-banner .comments .comment p{
+    color: #78909c;
+    line-height: 1.3em;
+}
+
+.our-team {
+    text-align: center;
+    padding: 40px 20%;
+}
+
+.our-team h2 {
+    font-size: 35px;
+    line-height: 1.4em;
+}
+
+.our-team p{
+    font-size: 15px;
+    color: #78909c;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+
+.our-team .teammate{
+    margin: 30px;
+    width: 70%;
+}
+
+.our-team h4{
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.social a{
+    display: inline-block;
+    width: 19px;
+    height: 20px;
+    background: url(/images/social.png) center;
+    margin-right: 10px;
+}
+
+.social .twitter {
+    background-position-x: 0;
+}
+
+.social .facebook {
+    background-position-x: -45px;
+}
+
+.social .linked-in {
+    width: 25px;
+    background-position-x: -85px;
+}
+
+.social .dribbble {
+    background-position-x: -135px;
+}
+
+.social .behance {
+    background-position-x: -180px;
+}
+
+.contact-us {
+    background: #fafafa;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    padding: 20px 20% 40px;
+}
+
+.contact-us h2 {
+    font-size: 35px;
+    line-height: 1.4em;
+}
+
+.contact-us p {
+    font-size: 15px;
+    color: #78909c;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+.contact-us form div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.contact-us form input[type="text"] {
+    font-family: "Raleway";
+    width: 45%;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color: rgb(6, 30, 55);
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-us form textarea {
+    font-family: "Raleway";
+    display: inline-block;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color: rgb(6, 30, 55);
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.contact-us form label {
+    text-align: left;
+}
+
+.contact-us form button {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.875;
+    text-align: center;
+    
+    
+    border-radius: 5px;
+    background-color: rgb(29, 233, 182);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    width: 130px;
+    height: 50px;
+}
+      
+  
+
+footer {
+    background-color: #061e37;
+    padding: 100px 0;
+}
+
+footer .about-us {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+footer .about-us ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer .about-us ul :nth-child(2)::before {
+    content: "\2022";
+    color: white;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: 1em;
+}
+
+footer .about-us a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Media*/
+
+@media (max-width: 1355px) {
+    .lead-banner {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 10px;
+    }
+    ul.numbers {
+        flex-direction: column;
+    }
+    ul.numbers li{
+        height: auto;
+        padding-top: 5px;
+        width: 100%;
+        justify-content: flex-start;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .second-banner .wrapper {
+        flex-direction: column;
+    }
+
+    .second-banner .wrapper .get-started {
+        width: 100%;
+    }
+
+    .second-banner .wrapper .get-started a {
+        width: 70%;
+        display: block;
+        margin: 20px auto;
+    }
+    .second-banner .wrapper .right-side {
+        width: 100%;
+    }
+
+    .second-banner .wrapper .right-side .arrows {
+        position: inherit;
+    }
+}
+
+@media (max-width: 580px) {
+    .lead-banner h1 {
+        font-size: 36px;
+    }
+    nav {
+        flex-flow: row wrap;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    header {
+        padding-top: 0px;
+    }
+    header nav a {
+        order: -1;
+        width: 50%;
+    }
+    nav ul li {
+        order: 3;
+        
+        padding: 10px 10px;
+        border-bottom: solid 1px #fff;
+    }
+
+    header nav button {
+        order: -1;
+        width: 30%;
+        text-align: center;
+        border-radius: 0px;
+    }
+    .lead-banner {
+        padding-top: 20px;
+    }
+    .btn {
+        display: flex;
+        flex-flow: column;
+    }
+    .lead-banner button {
+        margin: 0;
+    }
+    .video {
+        margin-top: 20px;
+    }
+    .easy-usefull .title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-us, .our-team {
+        padding: 10px;
+    }
+
+    .contact-us form input[type="text"]{
+        width: 100%;
+    }
+
+    .contact-us form button {
+        margin-top: 10px;
+    }
+
+    footer {
+        padding: 10px 0;;
+    }
+
+    footer .about-us {
+        flex-direction: column;
+    }
+
+}
